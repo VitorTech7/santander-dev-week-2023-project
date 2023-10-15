@@ -12,10 +12,10 @@ public class DepartamentoModel {
     private Long id;
     private String nome;
 
-    @OneToMany(mappedBy = "departamento", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "departamentoModel", cascade = CascadeType.ALL)
     private List<UsuarioModel> usuarioModel;
 
-    @OneToMany(mappedBy = "departamento", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "departamentoModel", cascade = CascadeType.ALL)
     private List<ProdutoModel> produtoModel;
 
     public Long getId() {

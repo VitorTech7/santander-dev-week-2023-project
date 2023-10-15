@@ -2,6 +2,7 @@ package com.diovitor.santanderdevweek2023project.controller;
 
 import com.diovitor.santanderdevweek2023project.model.DepartamentoModel;
 import com.diovitor.santanderdevweek2023project.repository.DepartamentoRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

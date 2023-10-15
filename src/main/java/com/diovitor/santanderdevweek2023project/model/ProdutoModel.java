@@ -39,11 +39,11 @@ public class ProdutoModel {
         this.preco = preco;
     }
 
-    public DepartamentoModel getDepartamentoModel() {
+    public DepartamentoModel getDepartamento() {
         return departamentoModel;
     }
 
-    public void setDepartamentoModel(DepartamentoModel departamentoModel) {
-        this.departamentoModel = departamentoModel;
+    public void setDepartamento(DepartamentoModel departamento) {
+        this.departamentoModel = departamento;
     }
 }
