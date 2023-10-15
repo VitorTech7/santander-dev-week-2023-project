@@ -17,4 +17,36 @@ public class DepartamentoModel {
 
     @OneToMany(mappedBy = "departamento", cascade = CascadeType.ALL)
     private List<ProdutoModel> produtoModel;
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public List<UsuarioModel> getUsuarioModel() {
+        return usuarioModel;
+    }
+
+    public void setUsuarioModel(List<UsuarioModel> usuarioModel) {
+        this.usuarioModel = usuarioModel;
+    }
+
+    public List<ProdutoModel> getProdutoModel() {
+        return produtoModel;
+    }
+
+    public void setProdutoModel(List<ProdutoModel> produtoModel) {
+        this.produtoModel = produtoModel;
+    }
 }
